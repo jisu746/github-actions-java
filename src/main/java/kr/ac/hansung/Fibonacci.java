@@ -9,7 +9,7 @@ public class Fibonacci {
 
         int n = Integer.parseInt(args[0]);
         if (n < 0) {
-            System.out.println(" Please provide a non-negative integer.");
+            System.out.println("Please provide a non-negative integer.");
             return;
         }
 
@@ -17,7 +17,7 @@ public class Fibonacci {
             //System.out.print(fibonacci(i) + "  ");
             int fib=fibonacci(i);
             System.out.print("fibonacci("+ i +")="+fib);
-            System.out.prinln();
+            System.out.println();
         }
     }
 
